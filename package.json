@@ -1,0 +1,26 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "graphql service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/andrewlee47/graphql_service.git"
+  },
+  "keywords": [
+    "backend",
+    "service"
+  ],
+  "author": "Andrew Babatunde",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.12.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "validator": "^13.11.0"
+  }
+}
